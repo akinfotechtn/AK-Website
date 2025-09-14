@@ -86,11 +86,11 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               <Card>
                 <CardContent className="p-6 text-center">
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4 text-white">
+                  <div className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4 text-white bg-popover-foreground">
                     <Award className="h-6 w-6 text-white" />
                   </div>
-                  <h3 className="font-heading font-semibold text-lg mb-2">Quality Products</h3>
-                  <p className="text-sm text-white">
+                  <h3 className="font-heading font-semibold text-lg mb-2 text-yellow-500">Quality Products</h3>
+                  <p className="text-sm text-black">
                     Genuine products from authorized brands with warranty support
                   </p>
                 </CardContent>
@@ -98,11 +98,11 @@ export default function AboutPage() {
 
               <Card>
                 <CardContent className="p-6 text-center">
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <div className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4 bg-popover-foreground">
                     <Users className="h-6 w-6 text-white" />
                   </div>
-                  <h3 className="font-heading font-semibold text-lg mb-2">Wholesale Pricing</h3>
-                  <p className="text-sm text-white">
+                  <h3 className="font-heading font-semibold text-lg mb-2 text-yellow-500">Wholesale Pricing</h3>
+                  <p className="text-sm text-black">
                     Competitive wholesale rates for bulk orders and registered dealers
                   </p>
                 </CardContent>
@@ -110,11 +110,11 @@ export default function AboutPage() {
 
               <Card>
                 <CardContent className="p-6 text-center">
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <div className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4 bg-popover-foreground">
                     <Truck className="h-6 w-6 text-white" />
                   </div>
-                  <h3 className="font-heading font-semibold text-lg mb-2">Fast Delivery</h3>
-                  <p className="text-sm text-white">
+                  <h3 className="font-heading font-semibold text-lg mb-2 text-yellow-500">Fast Delivery</h3>
+                  <p className="text-sm text-black">
                     Quick delivery across Chennai and Tamil Nadu with reliable logistics
                   </p>
                 </CardContent>
@@ -122,11 +122,11 @@ export default function AboutPage() {
 
               <Card>
                 <CardContent className="p-6 text-center">
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <div className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4 bg-popover-foreground">
                     <Shield className="h-6 w-6 text-white" />
                   </div>
-                  <h3 className="font-heading font-semibold text-lg mb-2">Expert Support</h3>
-                  <p className="text-sm text-white">
+                  <h3 className="font-heading font-semibold text-lg mb-2 text-yellow-500">Expert Support</h3>
+                  <p className="text-sm text-black">
                     Technical guidance and after-sales support from our experienced team
                   </p>
                 </CardContent>
@@ -149,12 +149,12 @@ export default function AboutPage() {
               <Card>
                 <CardContent className="p-8">
                   <h3 className="font-heading font-semibold text-xl mb-6">Store Information</h3>
-                  <div className="space-y-4">
+                  <div className="space-y-4 text-black">
                     <div className="flex items-start gap-3">
-                      <MapPin className="h-5 w-5 mt-1 flex-shrink-0 text-white" />
+                      <MapPin className="h-5 w-5 mt-1 flex-shrink-0 text-black" />
                       <div>
                         <p className="font-medium">Address</p>
-                        <p className="text-sm text-white">
+                        <p className="text-sm text-black">
                           No.19, Shop No: F22 & F23, 1st Floor
                           <br />
                           Uno Arcade A/C Complex
@@ -167,26 +167,26 @@ export default function AboutPage() {
                     </div>
 
                     <div className="flex items-center gap-3">
-                      <Phone className="h-5 w-5 text-white" />
+                      <Phone className="h-5 w-5 text-black" />
                       <div>
                         <p className="font-medium">Phone</p>
-                        <p className="text-sm text-white">9500673207</p>
+                        <p className="text-sm text-black">9500673207</p>
                       </div>
                     </div>
 
                     <div className="flex items-center gap-3">
-                      <Mail className="h-5 w-5 text-white" />
+                      <Mail className="h-5 w-5 text-black" />
                       <div>
                         <p className="font-medium">Email</p>
-                        <p className="text-sm text-white">akinfotechtn@gmail.com</p>
+                        <p className="text-sm text-black">akinfotechtn@gmail.com</p>
                       </div>
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <Clock className="h-5 w-5 mt-1 text-white" />
+                      <Clock className="h-5 w-5 mt-1 text-black" />
                       <div>
                         <p className="font-medium">Business Hours</p>
-                        <p className="text-sm text-white">
+                        <p className="text-sm text-black">
                           Monday - Saturday: 9:00 AM - 7:00 PM
                           <br />
                           Sunday: 10:00 AM - 5:00 PM

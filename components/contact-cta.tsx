@@ -17,32 +17,32 @@ export function ContactCTA() {
           <Card className="bg-white/10 border-white/20">
             <CardContent className="p-6 text-center">
               <Phone className="h-8 w-8 mx-auto mb-3 text-accent" />
-              <h3 className="font-semibold mb-2">Call Us</h3>
-              <p className="text-primary-foreground/90">9500673207</p>
+              <h3 className="font-semibold mb-2 text-yellow-400">Call Us</h3>
+              <p className="text-orange-500">9500673207</p>
             </CardContent>
           </Card>
 
           <Card className="bg-white/10 border-white/20">
             <CardContent className="p-6 text-center">
               <Mail className="h-8 w-8 mx-auto mb-3 text-accent" />
-              <h3 className="font-semibold mb-2">Email Us</h3>
-              <p className="text-primary-foreground/90 text-sm">akinfotechtn@gmail.com</p>
+              <h3 className="font-semibold mb-2 text-yellow-400">Email Us</h3>
+              <p className="text-sm text-orange-500">akinfotechtn@gmail.com</p>
             </CardContent>
           </Card>
 
           <Card className="bg-white/10 border-white/20">
             <CardContent className="p-6 text-center">
               <MapPin className="h-8 w-8 mx-auto mb-3 text-accent" />
-              <h3 className="font-semibold mb-2">Visit Us</h3>
-              <p className="text-primary-foreground/90 text-sm">Mount Road, Chennai</p>
+              <h3 className="font-semibold mb-2 text-yellow-400">Visit Us</h3>
+              <p className="text-sm text-orange-500">Mount Road, Chennai</p>
             </CardContent>
           </Card>
 
           <Card className="bg-white/10 border-white/20">
             <CardContent className="p-6 text-center">
               <Clock className="h-8 w-8 mx-auto mb-3 text-accent" />
-              <h3 className="font-semibold mb-2">Business Hours</h3>
-              <p className="text-primary-foreground/90 text-sm">Mon-Sat: 9AM-7PM</p>
+              <h3 className="font-semibold mb-2 text-yellow-400">Business Hours</h3>
+              <p className="text-sm text-orange-500">Mon-Sat: 9AM-7PM</p>
             </CardContent>
           </Card>
         </div>

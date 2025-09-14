@@ -57,8 +57,8 @@ export function AboutSection() {
                   <Card key={index}>
                     <CardContent className="p-6 text-center">
                       <IconComponent className="h-8 w-8 text-accent mx-auto mb-3" />
-                      <div className="font-heading font-bold text-2xl text-primary mb-1">{stat.value}</div>
-                      <div className="text-sm text-muted-foreground">{stat.label}</div>
+                      <div className="font-heading font-bold text-2xl mb-1 text-black">{stat.value}</div>
+                      <div className="text-sm text-black">{stat.label}</div>
                     </CardContent>
                   </Card>
                 )
@@ -67,8 +67,8 @@ export function AboutSection() {
 
             <Card className="bg-primary text-primary-foreground">
               <CardContent className="p-6">
-                <h3 className="font-heading font-semibold text-xl mb-3">Why Choose Us?</h3>
-                <ul className="space-y-2 text-sm">
+                <h3 className="font-heading font-semibold text-xl mb-3 text-black">Why Choose Us?</h3>
+                <ul className="space-y-2 text-sm text-black">
                   <li>• Competitive wholesale pricing</li>
                   <li>• Genuine products with warranty</li>
                   <li>• Expert technical consultation</li>

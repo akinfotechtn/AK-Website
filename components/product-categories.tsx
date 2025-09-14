@@ -90,8 +90,8 @@ export function ProductCategories() {
                     </div>
                   </div>
                   <div className="p-6">
-                    <h3 className="font-heading font-semibold text-xl mb-2">{category.name}</h3>
-                    <p className="text-muted-foreground mb-3">{category.description}</p>
+                    <h3 className="font-heading font-semibold text-xl mb-2 text-black">{category.name}</h3>
+                    <p className="mb-3 text-neutral-400">{category.description}</p>
                     <p className="text-sm text-accent font-medium mb-4">Brands: {category.brands}</p>
                     <Button asChild className="w-full">
                       <Link href="/products">View Products</Link>
