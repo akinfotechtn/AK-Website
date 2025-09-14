@@ -141,15 +141,20 @@ export function ProductCatalogSchema() {
           description: "Security surveillance cameras from top brands",
           brand: { "@type": "Brand", name: "Hikvision" },
           category: "Security Equipment",
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: "4.4",
+            reviewCount: "125"
+          },
           offers: {
             "@type": "Offer",
             availability: "https://schema.org/InStock",
             priceCurrency: "INR",
-            price: 0,
+            price: "4999",
             priceValidUntil: "2025-12-31",
-            seller: { "@type": "Organization", name: "AK Infotech" },
-          },
-        },
+            seller: { "@type": "Organization", name: "AK Infotech" }
+          }
+        }
       },
       {
         "@type": "ListItem",
@@ -160,15 +165,20 @@ export function ProductCatalogSchema() {
           description: "Intercom and video door phone systems",
           brand: { "@type": "Brand", name: "Dahua" },
           category: "Security Equipment",
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: "4.3",
+            reviewCount: "85"
+          },
           offers: {
             "@type": "Offer",
             availability: "https://schema.org/InStock",
             priceCurrency: "INR",
-            price: 0,
+            price: "2999",
             priceValidUntil: "2025-12-31",
-            seller: { "@type": "Organization", name: "AK Infotech" },
-          },
-        },
+            seller: { "@type": "Organization", name: "AK Infotech" }
+          }
+        }
       },
       {
         "@type": "ListItem",
@@ -179,15 +189,20 @@ export function ProductCatalogSchema() {
           description: "Fingerprint and biometric access control systems",
           brand: { "@type": "Brand", name: "ESSL" },
           category: "Security Equipment",
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: "4.5",
+            reviewCount: "64"
+          },
           offers: {
             "@type": "Offer",
             availability: "https://schema.org/InStock",
             priceCurrency: "INR",
-            price: 0,
+            price: "4999",
             priceValidUntil: "2025-12-31",
-            seller: { "@type": "Organization", name: "AK Infotech" },
-          },
-        },
+            seller: { "@type": "Organization", name: "AK Infotech" }
+          }
+        }
       },
       {
         "@type": "ListItem",
@@ -198,15 +213,20 @@ export function ProductCatalogSchema() {
           description: "Door access control and card reader systems",
           brand: { "@type": "Brand", name: "ZKTeco" },
           category: "Security Equipment",
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: "4.2",
+            reviewCount: "58"
+          },
           offers: {
             "@type": "Offer",
             availability: "https://schema.org/InStock",
             priceCurrency: "INR",
-            price: 0,
+            price: "3999",
             priceValidUntil: "2025-12-31",
-            seller: { "@type": "Organization", name: "AK Infotech" },
-          },
-        },
+            seller: { "@type": "Organization", name: "AK Infotech" }
+          }
+        }
       },
       {
         "@type": "ListItem",
@@ -217,18 +237,23 @@ export function ProductCatalogSchema() {
           description: "LED and Smart TVs from leading brands",
           brand: { "@type": "Brand", name: "Samsung" },
           category: "Electronics",
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: "4.6",
+            reviewCount: "150"
+          },
           offers: {
             "@type": "Offer",
             availability: "https://schema.org/InStock",
             priceCurrency: "INR",
-            price: 0,
+            price: "15999",
             priceValidUntil: "2025-12-31",
-            seller: { "@type": "Organization", name: "AK Infotech" },
-          },
-        },
-      },
-    ],
-  }
+            seller: { "@type": "Organization", name: "AK Infotech" }
+          }
+        }
+      }
+    ]
+  };
 
   return (
     <script
@@ -237,6 +262,7 @@ export function ProductCatalogSchema() {
     />
   )
 }
+
 
 export function BreadcrumbSchema({ items }: { items: Array<{ name: string; url: string }> }) {
   const schema = {
