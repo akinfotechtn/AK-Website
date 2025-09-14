@@ -1,0 +1,25 @@
+{
+  "name": "AK Infotech - Wholesale Electronics Dealer",
+  "short_name": "AK Infotech",
+  "description": "Wholesale electronics dealer in Chennai offering CCTV, biometrics, computers, TVs and more",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e40af",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["business", "shopping", "electronics"],
+  "lang": "en",
+  "dir": "ltr"
+}
