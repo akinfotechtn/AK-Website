@@ -21,8 +21,8 @@ export default function ContactPage() {
     <div className="min-h-screen">
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: "https://akinfotech.com" },
-          { name: "Contact", url: "https://akinfotech.com/contact" },
+          { name: "Home", url: "https://www.akinfotechcctv.in/" },
+          { name: "Contact", url: "https://www.akinfotechcctv.in/contact" },
         ]}
       />
 

@@ -33,7 +33,7 @@ export const metadata: Metadata = {
       "Wholesale supplier of CCTV cameras, biometrics, access control, TVs, computers and printers in Chennai at competitive prices.",
     type: "website",
     locale: "en_IN",
-    url: "https://akinfotech.vercel.app",
+    url: "https://www.akinfotechcctv.in/",
     siteName: "AK Infotech",
     images: [
       {
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     images: ["https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Logo.jpg-tdFymAcvfv6JWRb2PupiOqtcUUtoPC.jpeg"],
   },
   alternates: {
-    canonical: "https://akinfotech.vercel.app",
+    canonical: "https://www.akinfotechcctv.in/",
   },
   verification: {
     google: "your-google-verification-code",
@@ -74,7 +74,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://akinfotech.vercel.app" />
+        <link rel="canonical" href="https://www.akinfotechcctv.in/" />
         <meta name="geo.region" content="IN-TN" />
         <meta name="geo.placename" content="Chennai" />
         <meta name="geo.position" content="13.0827;80.2707" />

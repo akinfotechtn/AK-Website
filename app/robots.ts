@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/api/", "/admin/"],
     },
-    sitemap: "https://akinfotech.vercel.app/sitemap.xml",
+    sitemap: "https://www.akinfotechcctv.in/sitemap.xml",
   }
 }

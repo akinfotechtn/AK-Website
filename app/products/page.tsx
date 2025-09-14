@@ -17,8 +17,8 @@ export default function ProductsPage() {
     <div className="min-h-screen">
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: "https://akinfotech.com" },
-          { name: "Products", url: "https://akinfotech.com/products" },
+          { name: "Home", url: "https://www.akinfotechcctv.in/" },
+          { name: "Products", url: "https://www.akinfotechcctv.in/products" },
         ]}
       />
 

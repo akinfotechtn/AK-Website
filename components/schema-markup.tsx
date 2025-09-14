@@ -2,11 +2,11 @@ export function LocalBusinessSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": "https://akinfotech.com/#business",
+    "@id": "https://www.akinfotechcctv.in/#business",
     name: "AK Infotech",
     description:
       "Leading wholesale dealer of CCTV cameras, biometrics, access control, video door phones, TVs, computers, printers and cash counting machines in Chennai",
-    url: "https://akinfotech.com",
+    url: "https://www.akinfotechcctv.in/",
     telephone: "+919500673207",
     email: "akinfotechtn@gmail.com",
     address: {
@@ -78,10 +78,10 @@ export function OrganizationSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "@id": "https://akinfotech.com/#organization",
+    "@id": "https://www.akinfotechcctv.in/#organization",
     name: "AK Infotech",
     legalName: "AK Infotech",
-    url: "https://akinfotech.com",
+    url: "https://www.akinfotechcctv.in/",
     logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Logo.jpg-tdFymAcvfv6JWRb2PupiOqtcUUtoPC.jpeg",
     description: "Wholesale dealer of electronics and security solutions in Chennai",
     foundingLocation: {
