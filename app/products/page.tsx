@@ -9,7 +9,7 @@ export const metadata = {
   description:
     "Browse our complete range of electronics: CCTV cameras, biometrics, access control, video door phones, TVs, computers, printers at wholesale prices in Chennai.",
   keywords:
-    "CCTV camera price Chennai, biometric system, access control, video door phone, TCL TV, computer wholesale, printer Chennai",
+    "CCTV camera price Chennai, biometric system, access control, video door phone, TCL TV, computer wholesale, printer Chennai, Hikvision Authorised Dealer, CPPlus Authorised Dealer,Prama Authorised Dealer, Hi-Focus Authorised Dealer, Uniview Authorised Dealer, Honeywell Authorised Dealer, Dahua Authorised Dealer, Canon Printer Authorised Dealer, HP Printer Authorised Dealer, Epson Printer Authorised Dealer, TCL TV Authorised Dealer, Zebronics Authorised Dealer, CCTV wholesale Dealer, cctv camera shop near me, cctv camera shop in ritchie street, cctv store near me, surveillance camera store near me, near by cctv camera shop, cc camera shop near me, shop camera cctv, near cctv camera shop, cctv camera store, cctv camera for store, cctv camera dealers in ritchie street, ritchie street cctv camera shop, security camera store near me, wholesale cctv camera",
 }
 
 export default function ProductsPage() {

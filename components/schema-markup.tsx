@@ -8,10 +8,10 @@ export function LocalBusinessSchema() {
       "Leading wholesale dealer of CCTV cameras, biometrics, access control, video door phones, TVs, computers, printers and cash counting machines in Chennai",
     url: "https://www.akinfotechcctv.in/",
     telephone: "+919500673207",
-    email: "akinfotechtn@gmail.com",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "No.19, Shop No: F22 & F23, 1st Floor, Uno Arcade A/C Complex, Meeran Sahib Street",
+      streetAddress:
+        "No.19, Shop No: F22 & F23, 1st Floor, Uno Arcade A/C Complex, Meeran Sahib Street",
       addressLocality: "Mount Road",
       addressRegion: "Tamil Nadu",
       postalCode: "600002",
@@ -19,17 +19,14 @@ export function LocalBusinessSchema() {
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: "13.0827",
-      longitude: "80.2707",
+      latitude: 13.0827,
+      longitude: 80.2707,
     },
     openingHours: ["Mo-Sa 09:00-19:00", "Su 10:00-17:00"],
-    paymentAccepted: "Cash, Bank Transfer, UPI",
+    paymentAccepted: ["Cash", "Bank Transfer", "UPI"],
     currenciesAccepted: "INR",
-    priceRange: "Wholesale Prices",
-    areaServed: {
-      "@type": "State",
-      name: "Tamil Nadu",
-    },
+    priceRange: "₹₹",
+    areaServed: "Tamil Nadu",
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       name: "Electronics Wholesale Catalog",
@@ -39,7 +36,7 @@ export function LocalBusinessSchema() {
           itemOffered: {
             "@type": "Product",
             name: "CCTV Cameras",
-            description: "Security cameras from Hikvision, Dahua, CPPlus brands",
+            description: "Security cameras from Hikvision, Dahua, CPPlus",
           },
         },
         {
@@ -63,7 +60,7 @@ export function LocalBusinessSchema() {
           itemOffered: {
             "@type": "Product",
             name: "Computers & Peripherals",
-            description: "Laptops, desktops, monitors from Dell, Acer, Asus brands",
+            description: "Laptops, desktops, monitors from Dell, Acer, Asus",
           },
         },
       ],
@@ -71,7 +68,12 @@ export function LocalBusinessSchema() {
     sameAs: ["https://www.google.com/maps/place/AK+Infotech"],
   }
 
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  )
 }
 
 export function OrganizationSchema() {
@@ -83,7 +85,8 @@ export function OrganizationSchema() {
     legalName: "AK Infotech",
     url: "https://www.akinfotechcctv.in/",
     logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Logo.jpg-tdFymAcvfv6JWRb2PupiOqtcUUtoPC.jpeg",
-    description: "Wholesale dealer of electronics and security solutions in Chennai",
+    description:
+      "Wholesale dealer of electronics and security solutions in Chennai",
     foundingLocation: {
       "@type": "Place",
       address: {
@@ -103,7 +106,8 @@ export function OrganizationSchema() {
     },
     address: {
       "@type": "PostalAddress",
-      streetAddress: "No.19, Shop No: F22 & F23, 1st Floor, Uno Arcade A/C Complex, Meeran Sahib Street",
+      streetAddress:
+        "No.19, Shop No: F22 & F23, 1st Floor, Uno Arcade A/C Complex, Meeran Sahib Street",
       addressLocality: "Mount Road",
       addressRegion: "Tamil Nadu",
       postalCode: "600002",
@@ -112,7 +116,12 @@ export function OrganizationSchema() {
     taxID: "33CPAPA9563H1Z1",
   }
 
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  )
 }
 
 export function ProductCatalogSchema() {
@@ -121,7 +130,7 @@ export function ProductCatalogSchema() {
     "@type": "ItemList",
     name: "AK Infotech Product Catalog",
     description: "Complete range of electronics at wholesale prices",
-    numberOfItems: 9,
+    numberOfItems: 5,
     itemListElement: [
       {
         "@type": "ListItem",
@@ -130,17 +139,15 @@ export function ProductCatalogSchema() {
           "@type": "Product",
           name: "CCTV Cameras",
           description: "Security surveillance cameras from top brands",
-          brand: ["Hikvision", "Dahua", "CPPlus", "Prama", "TP Link"],
+          brand: { "@type": "Brand", name: "Hikvision" },
           category: "Security Equipment",
           offers: {
             "@type": "Offer",
             availability: "https://schema.org/InStock",
             priceCurrency: "INR",
-            price: "Contact for wholesale price",
-            seller: {
-              "@type": "Organization",
-              name: "AK Infotech",
-            },
+            price: 0,
+            priceValidUntil: "2025-12-31",
+            seller: { "@type": "Organization", name: "AK Infotech" },
           },
         },
       },
@@ -151,17 +158,15 @@ export function ProductCatalogSchema() {
           "@type": "Product",
           name: "Video Door Phones",
           description: "Intercom and video door phone systems",
-          brand: ["Hikvision", "Dahua", "CPPlus"],
+          brand: { "@type": "Brand", name: "Dahua" },
           category: "Security Equipment",
           offers: {
             "@type": "Offer",
             availability: "https://schema.org/InStock",
             priceCurrency: "INR",
-            price: "Contact for wholesale price",
-            seller: {
-              "@type": "Organization",
-              name: "AK Infotech",
-            },
+            price: 0,
+            priceValidUntil: "2025-12-31",
+            seller: { "@type": "Organization", name: "AK Infotech" },
           },
         },
       },
@@ -172,17 +177,15 @@ export function ProductCatalogSchema() {
           "@type": "Product",
           name: "Biometric Systems",
           description: "Fingerprint and biometric access control systems",
-          brand: ["ESSL", "ZKTeco"],
+          brand: { "@type": "Brand", name: "ESSL" },
           category: "Security Equipment",
           offers: {
             "@type": "Offer",
             availability: "https://schema.org/InStock",
             priceCurrency: "INR",
-            price: "Contact for wholesale price",
-            seller: {
-              "@type": "Organization",
-              name: "AK Infotech",
-            },
+            price: 0,
+            priceValidUntil: "2025-12-31",
+            seller: { "@type": "Organization", name: "AK Infotech" },
           },
         },
       },
@@ -193,17 +196,15 @@ export function ProductCatalogSchema() {
           "@type": "Product",
           name: "Access Control Systems",
           description: "Door access control and card reader systems",
-          brand: ["ESSL", "ZKTeco"],
+          brand: { "@type": "Brand", name: "ZKTeco" },
           category: "Security Equipment",
           offers: {
             "@type": "Offer",
             availability: "https://schema.org/InStock",
             priceCurrency: "INR",
-            price: "Contact for wholesale price",
-            seller: {
-              "@type": "Organization",
-              name: "AK Infotech",
-            },
+            price: 0,
+            priceValidUntil: "2025-12-31",
+            seller: { "@type": "Organization", name: "AK Infotech" },
           },
         },
       },
@@ -214,24 +215,27 @@ export function ProductCatalogSchema() {
           "@type": "Product",
           name: "Smart TVs",
           description: "LED and Smart TVs from leading brands",
-          brand: ["TCL", "Maxxion", "LG", "Samsung"],
+          brand: { "@type": "Brand", name: "Samsung" },
           category: "Electronics",
           offers: {
             "@type": "Offer",
             availability: "https://schema.org/InStock",
             priceCurrency: "INR",
-            price: "Contact for wholesale price",
-            seller: {
-              "@type": "Organization",
-              name: "AK Infotech",
-            },
+            price: 0,
+            priceValidUntil: "2025-12-31",
+            seller: { "@type": "Organization", name: "AK Infotech" },
           },
         },
       },
     ],
   }
 
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  )
 }
 
 export function BreadcrumbSchema({ items }: { items: Array<{ name: string; url: string }> }) {
@@ -246,5 +250,10 @@ export function BreadcrumbSchema({ items }: { items: Array<{ name: string; url: 
     })),
   }
 
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  )
 }
