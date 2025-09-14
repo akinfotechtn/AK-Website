@@ -15,7 +15,7 @@ const brands = [
     name: "ESSL",
     logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fingerprint-scanner-dealers-in-chennai-zJDpCtKWcl94AHrjdHjpIvvQaIS1Ps.webp",
   },
-  { name: "ZKTeco", logo: "/zkteco-biometric-time-attendance-brand-logo.jpg" },
+  { name: "ZKTeco", logo: "/zkteco-logo.png" },
   { name: "TCL", logo: "/tcl-electronics-television-brand-logo.jpg" },
   { name: "Samsung", logo: "/samsung-electronics-brand-logo.jpg" },
   { name: "LG", logo: "/lg-electronics-brand-logo.jpg" },
