@@ -18,7 +18,7 @@ const brands = [
   { name: "ZKTeco", logo: "/zkteco-logo.png" },
   { name: "TCL", logo: "/tcl-electronics-television-brand-logo.jpg" },
   { name: "Samsung", logo: "/samsung-electronics-brand-logo.jpg" },
-  { name: "LG", logo: "/lg-electronics-brand-logo.jpg" },
+  { name: "LG", logo: "/lg-monitor-logo.webp" },
   {
     name: "Dell",
     logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dell-logo-png-open-2000-9JOdB7UYoA4yijYadqE8aCg2Aw39vw.png",
