@@ -63,7 +63,7 @@ export default function AboutPage() {
               </div>
               <div>
                 <img
-                  src="/ak-infotech-office-showroom.png"
+                  src="/modern-computer-setup-with-monitor-printer-office.png"
                   alt="AK Infotech Office and Showroom"
                   className="w-full h-80 object-cover rounded-lg shadow-lg"
                 />
