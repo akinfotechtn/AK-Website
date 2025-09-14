@@ -5,7 +5,7 @@ import { ProductCategories } from "@/components/product-categories"
 import { AboutSection } from "@/components/about-section"
 import { BrandsSection } from "@/components/brands-section"
 import { ContactCTA } from "@/components/contact-cta"
-import { LocalBusinessSchema, OrganizationSchema, ProductCatalogSchema } from "@/components/schema-markup"
+import { LocalBusinessSchema, OrganizationSchema, ProductCatalogSchema, FAQSchema } from "@/components/schema-markup"
 
 export default function HomePage() {
   return (
@@ -13,6 +13,7 @@ export default function HomePage() {
       <LocalBusinessSchema />
       <OrganizationSchema />
       <ProductCatalogSchema />
+      <FAQSchema />
 
       <Header />
       <main>
