@@ -273,7 +273,7 @@ export function ProductCatalogSchema() {
           name: "CCTV Cameras",
           description: "Security surveillance cameras from top brands",
           image: "https://www.akinfotechcctv.in/cctv-security-camera-system.png",
-          url: "https://www.akinfotechcctv.in/products",
+          url: "https://www.akinfotechcctv.in/products#cctv-cameras",
           brand: { "@type": "Brand", name: "Hikvision" },
           category: "Security Equipment",
           aggregateRating: {
@@ -299,7 +299,7 @@ export function ProductCatalogSchema() {
           name: "Video Door Phones",
           description: "Intercom and video door phone systems",
           image: "https://www.akinfotechcctv.in/video-door-phone-intercom.png",
-          url: "https://www.akinfotechcctv.in/products",
+          url: "https://www.akinfotechcctv.in/products#video-door-phones",
           brand: { "@type": "Brand", name: "Dahua" },
           category: "Security Equipment",
           aggregateRating: {
@@ -325,7 +325,7 @@ export function ProductCatalogSchema() {
           name: "Biometric Systems",
           description: "Fingerprint and biometric access control systems",
           image: "https://www.akinfotechcctv.in/biometric-fingerprint-scanner.png",
-          url: "https://www.akinfotechcctv.in/products",
+          url: "https://www.akinfotechcctv.in/products#biometric-systems",
           brand: { "@type": "Brand", name: "ESSL" },
           category: "Security Equipment",
           aggregateRating: {
@@ -351,7 +351,7 @@ export function ProductCatalogSchema() {
           name: "Access Control Systems",
           description: "Door access control and card reader systems",
           image: "https://www.akinfotechcctv.in/access-control-card-reader-system.png",
-          url: "https://www.akinfotechcctv.in/products",
+          url: "https://www.akinfotechcctv.in/products#access-control-systems",
           brand: { "@type": "Brand", name: "ZKTeco" },
           category: "Security Equipment",
           aggregateRating: {
@@ -377,7 +377,7 @@ export function ProductCatalogSchema() {
           name: "Smart TVs",
           description: "LED and Smart TVs from leading brands",
           image: "https://www.akinfotechcctv.in/modern-smart-tv-display.png",
-          url: "https://www.akinfotechcctv.in/products",
+          url: "https://www.akinfotechcctv.in/products#smart-tvs",
           brand: { "@type": "Brand", name: "Samsung" },
           category: "Electronics",
           aggregateRating: {
