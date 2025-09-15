@@ -61,7 +61,8 @@ export function LocalBusinessSchema() {
             "@type": "Product",
             name: "CCTV Cameras",
             description: "Security cameras from Hikvision, Dahua, CPPlus",
-            image: "/cctv-security-camera-system.png",
+            image: "https://www.akinfotechcctv.in/cctv-security-camera-system.png",
+            url: "https://www.akinfotechcctv.in/products",
             offers: {
               "@type": "Offer",
               availability: "https://schema.org/InStock",
@@ -82,7 +83,8 @@ export function LocalBusinessSchema() {
             "@type": "Product",
             name: "Biometric Systems",
             description: "Fingerprint and access control systems from ESSL, ZKTeco",
-            image: "/biometric-fingerprint-scanner.png",
+            image: "https://www.akinfotechcctv.in/biometric-fingerprint-scanner.png",
+            url: "https://www.akinfotechcctv.in/products",
             offers: {
               "@type": "Offer",
               availability: "https://schema.org/InStock",
@@ -103,7 +105,8 @@ export function LocalBusinessSchema() {
             "@type": "Product",
             name: "Video Door Phones",
             description: "Intercom systems from Hikvision, Dahua, CPPlus",
-            image: "/video-door-phone-intercom.png",
+            image: "https://www.akinfotechcctv.in/video-door-phone-intercom.png",
+            url: "https://www.akinfotechcctv.in/products",
             offers: {
               "@type": "Offer",
               availability: "https://schema.org/InStock",
@@ -124,7 +127,8 @@ export function LocalBusinessSchema() {
             "@type": "Product",
             name: "Computers & Peripherals",
             description: "Laptops, desktops, monitors from Dell, Acer, Asus",
-            image: "/desktop-computer-setup-office.png",
+            image: "https://www.akinfotechcctv.in/desktop-computer-setup-office.png",
+            url: "https://www.akinfotechcctv.in/products",
             offers: {
               "@type": "Offer",
               availability: "https://schema.org/InStock",
@@ -268,7 +272,8 @@ export function ProductCatalogSchema() {
           "@type": "Product",
           name: "CCTV Cameras",
           description: "Security surveillance cameras from top brands",
-          image: "/cctv-security-camera-system.png",
+          image: "https://www.akinfotechcctv.in/cctv-security-camera-system.png",
+          url: "https://www.akinfotechcctv.in/products",
           brand: { "@type": "Brand", name: "Hikvision" },
           category: "Security Equipment",
           aggregateRating: {
@@ -293,7 +298,8 @@ export function ProductCatalogSchema() {
           "@type": "Product",
           name: "Video Door Phones",
           description: "Intercom and video door phone systems",
-          image: "/video-door-phone-intercom.png",
+          image: "https://www.akinfotechcctv.in/video-door-phone-intercom.png",
+          url: "https://www.akinfotechcctv.in/products",
           brand: { "@type": "Brand", name: "Dahua" },
           category: "Security Equipment",
           aggregateRating: {
@@ -318,7 +324,8 @@ export function ProductCatalogSchema() {
           "@type": "Product",
           name: "Biometric Systems",
           description: "Fingerprint and biometric access control systems",
-          image: "/biometric-fingerprint-scanner.png",
+          image: "https://www.akinfotechcctv.in/biometric-fingerprint-scanner.png",
+          url: "https://www.akinfotechcctv.in/products",
           brand: { "@type": "Brand", name: "ESSL" },
           category: "Security Equipment",
           aggregateRating: {
@@ -343,7 +350,8 @@ export function ProductCatalogSchema() {
           "@type": "Product",
           name: "Access Control Systems",
           description: "Door access control and card reader systems",
-          image: "/access-control-card-reader-system.png",
+          image: "https://www.akinfotechcctv.in/access-control-card-reader-system.png",
+          url: "https://www.akinfotechcctv.in/products",
           brand: { "@type": "Brand", name: "ZKTeco" },
           category: "Security Equipment",
           aggregateRating: {
@@ -368,7 +376,8 @@ export function ProductCatalogSchema() {
           "@type": "Product",
           name: "Smart TVs",
           description: "LED and Smart TVs from leading brands",
-          image: "/modern-smart-tv-display.png",
+          image: "https://www.akinfotechcctv.in/modern-smart-tv-display.png",
+          url: "https://www.akinfotechcctv.in/products",
           brand: { "@type": "Brand", name: "Samsung" },
           category: "Electronics",
           aggregateRating: {
