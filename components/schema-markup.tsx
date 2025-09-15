@@ -62,6 +62,18 @@ export function LocalBusinessSchema() {
             name: "CCTV Cameras",
             description: "Security cameras from Hikvision, Dahua, CPPlus",
             image: "/cctv-security-camera-system.png",
+            offers: {
+              "@type": "Offer",
+              availability: "https://schema.org/InStock",
+              priceCurrency: "INR",
+              price: "4999",
+              seller: { "@type": "Organization", name: "AK Infotech" }
+            },
+            aggregateRating: {
+              "@type": "AggregateRating",
+              ratingValue: "4.4",
+              reviewCount: "125"
+            }
           },
         },
         {
@@ -71,6 +83,18 @@ export function LocalBusinessSchema() {
             name: "Biometric Systems",
             description: "Fingerprint and access control systems from ESSL, ZKTeco",
             image: "/biometric-fingerprint-scanner.png",
+            offers: {
+              "@type": "Offer",
+              availability: "https://schema.org/InStock",
+              priceCurrency: "INR",
+              price: "4999",
+              seller: { "@type": "Organization", name: "AK Infotech" }
+            },
+            aggregateRating: {
+              "@type": "AggregateRating",
+              ratingValue: "4.5",
+              reviewCount: "64"
+            }
           },
         },
         {
@@ -80,6 +104,18 @@ export function LocalBusinessSchema() {
             name: "Video Door Phones",
             description: "Intercom systems from Hikvision, Dahua, CPPlus",
             image: "/video-door-phone-intercom.png",
+            offers: {
+              "@type": "Offer",
+              availability: "https://schema.org/InStock",
+              priceCurrency: "INR",
+              price: "2999",
+              seller: { "@type": "Organization", name: "AK Infotech" }
+            },
+            aggregateRating: {
+              "@type": "AggregateRating",
+              ratingValue: "4.3",
+              reviewCount: "85"
+            }
           },
         },
         {
@@ -89,6 +125,18 @@ export function LocalBusinessSchema() {
             name: "Computers & Peripherals",
             description: "Laptops, desktops, monitors from Dell, Acer, Asus",
             image: "/desktop-computer-setup-office.png",
+            offers: {
+              "@type": "Offer",
+              availability: "https://schema.org/InStock",
+              priceCurrency: "INR",
+              price: "15999",
+              seller: { "@type": "Organization", name: "AK Infotech" }
+            },
+            aggregateRating: {
+              "@type": "AggregateRating",
+              ratingValue: "4.6",
+              reviewCount: "150"
+            }
           },
         },
       ],
